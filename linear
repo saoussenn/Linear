@@ -1,0 +1,51 @@
+/* Version 1 */
+
+Algorithme  éléments distincts ;
+Var T :Tableau[1..100] de entier ;
+Var V :Tableau[1..100] de entier ;
+
+I,N,X,S :entier ;
+Debut
+
+/*lecture de la taille exacte  de 1er tableau*/
+
+Ecrire(‘Donner la taille du tableau N≤100’) ;
+Repeter
+Ecrire ("donner la taille N")
+Lire(N) 
+Jusqu’à N>0 et N≤100 ;
+
+/*Lecture des éléments */
+
+pour i de 0 a n faire;
+    ecrire ("donner l'élemnet");
+
+  lire (T[I]);
+  Fin pour
+
+/*lecture de la taille exacte  de 2éme tableau*/
+
+Repeter
+Ecrire ("donner la taille X")
+Lire(X) 
+Jusqu’à X>0 et X≤100 ;
+
+pour i de 0 à x faire
+    ecrire("donner l'élement")
+    lire(v[i])
+fin pour
+
+/*calcul*/
+s=0
+pour i de 0 à N faire
+pour i de 0 à x faire
+    ecrire("calcul des élements")
+    si (t[i]<>v[i]) alors
+        s=t[i]+v[i]
+    fin si
+fin pour
+fin pour
+ecrire("la somme est",s)
+Fin
+
+
